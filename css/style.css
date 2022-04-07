@@ -1,0 +1,302 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  width: 1219px;
+  margin: 0px auto;
+  padding-top: 84px;
+  font-family: "Roboto";
+}
+
+.header {
+  margin: auto;
+  position: fixed;
+  top: 0px;
+  width: 1219px;
+  height: 84px;
+  padding: 0px 55px;
+  background: #007765;
+}
+
+.header__logo {
+  display: inline-block;
+  width: 186px;
+  height: 45px;
+  margin-right: 500px;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+  background-image: url("../images/logo/logo.png");
+}
+
+.header__menu {
+  display: inline-block;
+  margin-top: 29px;
+  margin-bottom: 26px;
+  list-style-type: none; /* Убираем маркеры */
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 3px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+li a {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 24px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.green-block-content {
+  margin: auto;
+  height: 403px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/background/green-background.png");
+}
+
+.green-block-content h1 {
+  margin-top: 0px; /* Убираем отступ между блоками */
+  text-align: center;
+  vertical-align: middle;
+  padding: 160px;
+  font-weight: 500;
+  font-size: 72px;
+  color: #ffffff;
+}
+
+.beige-block-content {
+  margin: auto;
+  padding: 48px 55px 50px 55px;
+  font-weight: 400;
+  font-size: 32px;
+  background: #eeeeee;
+}
+
+.beige-block-content h1 {
+  margin-top: 0px;
+  margin-bottom: 16px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 64px;
+  color: #007765;
+}
+
+.beige-block-content p {
+  margin-bottom: 1.3em;
+}
+
+.blue-block-content {
+  margin: auto;
+  height: 483px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/background/blue-background.png");
+}
+
+.blue-block-content h1 {
+  margin-top: 0px; /* Убираем отступ между блоками */
+  padding: 128px 163px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  color: white;
+}
+
+.white-block-content {
+  margin: auto;
+  padding: 48px 54px 50px 55px;
+}
+
+.white-block-content h1 {
+  margin-top: 0px;
+  margin-bottom: 16px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 64px;
+  color: #007765;
+}
+
+.white-block-content p {
+  margin-bottom: 1.3em;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.white-block-content_pic {
+  width: 115px;
+  height: 115px;
+  margin-right: 45px;
+  float: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/logo/ppc-logo.png");
+}
+
+.white-block-content_clear-float {
+  clear: both;
+}
+
+.team-content {
+  margin: auto;
+  padding: 48px 120px 122px 130px;
+  font-weight: 400;
+  font-size: 32px;
+  background: #eeeeee;
+}
+
+.team-content h1 {
+  margin-top: 0px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 64px;
+  color: #007765;
+}
+
+h2 {
+  padding-top: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  color: #007765;
+}
+
+.team-content p {
+  text-align: center;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+}
+.team-content__block-1 {
+  display: inline-block;
+  width: 210px;
+  height: 230px;
+  margin-right: 160px;
+  margin-bottom: 82px;
+}
+
+.team-content__block-1_pic {
+  margin: auto;
+  width: 168px;
+  height: 168px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/1-richard-hendricks.png");
+}
+
+.team-content__block-2 {
+  display: inline-block;
+  width: 210px;
+  height: 230px;
+  margin-right: 160px;
+  margin-bottom: 82px;
+}
+
+.team-content__block-2_pic {
+  margin: auto;
+  width: 168px;
+  height: 168px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/2-dinesh-chugtai.png");
+}
+
+.team-content__block-3 {
+  display: inline-block;
+  width: 210px;
+  height: 230px;
+  margin-bottom: 82px;
+}
+
+.team-content__block-3_pic {
+  margin: auto;
+  width: 168px;
+  height: 168px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/3-bertram-gilfoyle.png");
+}
+
+.team-content__block-4 {
+  display: inline-block;
+  width: 210px;
+  height: 220px;
+  margin-right: 160px;
+}
+
+.team-content__block-4_pic {
+  margin: auto;
+  width: 168px;
+  height: 168px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/4-jared-dunn.png");
+}
+
+.team-content__block-5 {
+  display: inline-block;
+  width: 210px;
+  height: 230px;
+  margin-right: 160px;
+}
+
+.team-content__block-5_pic {
+  margin: auto;
+  width: 168px;
+  height: 168px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/5-monica-hall.png");
+}
+
+.team-content__block-6 {
+  display: inline-block;
+  width: 210px;
+  height: 230px;
+}
+
+.team-content__block-6_pic {
+  margin: auto;
+  width: 168px;
+  height: 168px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/6-nelson-bighetti.png");
+}
+
+.footer {
+  margin: auto;
+  padding: 48px 339px 64px 340px;
+  background: #333333;
+}
+
+.footer p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+#anchorWrapper,
+#anchorTheProblem,
+#anchorPiedPiperCoin,
+#anchorTheTeam {
+  border-top: 84px solid transparent;
+  margin-top: -84px;
+}
